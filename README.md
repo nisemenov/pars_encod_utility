@@ -8,6 +8,6 @@ This script allows you to automatically change your file's encoding to UTF-8 and
 
 ```python
 
->>> python encoding.py file.txt
+$ python encoding.py file.txt
 
 ```
