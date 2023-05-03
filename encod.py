@@ -12,7 +12,7 @@ if __name__ == '__main__':
         dict = chardet.detect(first.read())
         encod = dict['encoding']
 
-    if encod == 'UTF-8':
+    if encod != 'UTF-8':
         with open(file_path, 'r', encoding=encod) as f:
             text = f.read()
 
